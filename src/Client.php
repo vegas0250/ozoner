@@ -63,8 +63,7 @@ class Client
             'headers' => [
                 'Authorization' => 'Bearer '.$token
             ],
-            $method == 'get' ? 'query' : 'json' => $params,
-            'debug' => true
+            $method == 'get' ? 'query' : 'json' => $params
         ]);
 
         return \json_decode($rowResponse->getBody()->getContents(), true);
