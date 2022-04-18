@@ -1,0 +1,22 @@
+{
+    "name": "vegas0250/ozoner",
+    "description": "php http client for ozon rocket delivery api",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Vegas0250\\Ozoner\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "vegas0250",
+            "email": "vegas0250@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.4",
+        "symfony/cache": "^5.4",
+        "ext-json": "*"
+    }
+}
